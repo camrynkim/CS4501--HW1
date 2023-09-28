@@ -1,0 +1,63 @@
+<!--
+ REFERENCES
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center
+https://www.w3schools.com/html/html_css.asp
+https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/html/html_styles.asp
+https://www.w3schools.com/cssref/css_websafe_fonts.php
+https://stackoverflow.com/questions/15180738/buttons-links-inline-with-text
+ -->
+<!DOCTTYPE html>
+<html lang = "en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <!-- Code from Bootstrap: https://getbootstrap.com -->
+
+
+<head style="color:blue;">
+  <title > TOOTHACHE  </title>
+</head>
+
+
+<div style="color:yellow; font-family:Brush Script MT ;">
+<div class="fs-1 fw-bold bg-primary text-emphasis-primary text-center text-uppercase ">
+
+<div class = "border border-primary p-1 mb-2 fs-6 fw-bold bg-primary text-emphasis-primary text-center" style="background-color:blue">
+  <!-- code for nav menu from Reference 13 -->
+  Navigation Menu
+<nav class="nav justify-content-center" >
+    <a class="nav-link active" style = "color:yellow" href="{% url 'home' %}">Home</a>
+    <a class="nav-link active" style = "color:yellow" href="{% url 'index' %}">Cookies</a>
+
+
+
+
+
+</nav>
+</div>
+
+<!-- Reference 5 and 6 and  7 -->
+
+
+  TOOTHACHE</div>
+  </div>
+
+<body style="text-align:center; background-color:blue;">
+<div style = "width:70%; text-align:center; margin-left: auto; margin-right: auto; color:yellow; font-family:Brush Script MT ;font-size:250%;">
+  Hello! Welcome to our website for our brand, Toothache.
+We are a fully online based candy store that started up in West Virginia, and have been expanding all across the country.
+Our online store has a small selection of candies to buy, that are listed on this web page. If you love sweets, this is the place for you!
+    This website was fittingly named Toothache because although we are a fake website and a fake brand, and therefore we can not cause you a toothache
+    with our candy, we hope using our website causes you another type of ache (a headache).
+To get started, look around this page to find the link, which will have more instructions on how to order our finely curated and selected candies.
+    Click <a class="nav-link active" style = "color:yellow; display:inline" href="{% url 'search' %}">here</a> to get started and search for your desired candy!
+    Each piece of candy costs 5 dollars each, which is a very reasonable price!
+</div>
+
+
+</body>
+
+
+
+
+
+
+</html>
